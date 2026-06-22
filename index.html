@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scrounge – Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #fff;
+      padding: 40px 20px 80px;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    header { margin-bottom: 48px; border-bottom: 2px solid #f0f0f0; padding-bottom: 24px; }
+    header h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+    header p  { font-size: 14px; color: #666; }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 36px 0 12px;
+      color: #111;
+    }
+    p  { margin-bottom: 14px; color: #333; }
+    ul { margin: 0 0 14px 20px; color: #333; }
+    ul li { margin-bottom: 6px; }
+    a  { color: #0070f3; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .section { margin-bottom: 8px; }
+    .callout {
+      background: #f7f7f7;
+      border-left: 4px solid #d0d0d0;
+      padding: 14px 18px;
+      border-radius: 4px;
+      margin: 16px 0 20px;
+      font-size: 15px;
+      color: #444;
+    }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid #eee;
+      font-size: 13px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Scrounge – Privacy Policy</h1>
+  <p>Last updated: June 2026 &nbsp;·&nbsp; Effective: June 2026</p>
+</header>
+
+<div class="callout">
+  Scrounge is a recipe and kitchen inventory app built for home cooks. This policy explains what data the app collects, why, and how it is handled. We keep data collection to what is strictly necessary to run the app.
+</div>
+
+<h2>1. Who We Are</h2>
+<p>Scrounge is developed and operated by Gavin Bolin (referred to in this policy as "we," "us," or "our"). You can reach us at <a href="mailto:gavinbolin3411@gmail.com">gavinbolin3411@gmail.com</a>.</p>
+
+<h2>2. Information We Collect</h2>
+
+<p><strong>Account information.</strong> If you sign in with Apple or Google, we receive your email address and, optionally, your display name. This is used solely to identify your account and associate your data with it. We do not receive your Apple or Google password.</p>
+
+<p><strong>Pantry and recipe data.</strong> Ingredients, expiry dates, quantities, saved recipes, and cooking history you add to the app are stored locally on your device and, when signed in, synchronized to our backend (Supabase) so your data persists across devices. This data is tied to your account and is never sold or shared with third parties.</p>
+
+<p><strong>Device identifier.</strong> The app generates a random device ID and stores it locally. This identifier is sent with API requests to enforce per-device rate limits on AI features. It is not linked to your identity, your Apple ID, or any advertising network.</p>
+
+<p><strong>Feedback messages.</strong> If you use the in-app feedback button, the text you enter, your device identifier, and the timestamp are sent to the developer via email. This information is used only to respond to and act on your feedback.</p>
+
+<p><strong>AI query content.</strong> When you use the AI assistant (Ask Scrounge), the text of your query is sent to Google's Gemini API via our backend for processing. The response is returned to your device. We do not log the content of individual AI conversations beyond what Supabase's standard request logging captures for error diagnosis.</p>
+
+<p><strong>Usage data.</strong> We collect minimal usage information — such as how many AI requests your device has made today — purely to enforce daily usage limits. We do not use analytics platforms to track your behavior across the app.</p>
+
+<h2>3. Information We Do Not Collect</h2>
+<ul>
+  <li>We do not sell your data to anyone, ever.</li>
+  <li>We do not collect precise location data.</li>
+  <li>We do not store photos or camera captures — camera and photo library access is used on-device to identify ingredients and is not uploaded.</li>
+  <li>We do not record or store audio — microphone access is used for voice ingredient input and hands-free cooking mode, processed in real time and not saved.</li>
+  <li>We do not build advertising profiles from your in-app behavior.</li>
+</ul>
+
+<h2>4. Device Permissions</h2>
+<p>Scrounge requests the following device permissions:</p>
+<ul>
+  <li><strong>Camera</strong> — to scan pantry items and identify ingredients by photo. Captures are processed on-device or sent to a vision API; they are not stored.</li>
+  <li><strong>Photo library</strong> — to select images of pantry items or ingredients for identification.</li>
+  <li><strong>Microphone</strong> — to accept voice input for ingredient entry and hands-free step navigation during cooking.</li>
+  <li><strong>Notifications</strong> — to send local reminders when pantry items are approaching their expiry date. These notifications are generated on-device and do not involve a remote server.</li>
+</ul>
+<p>You can revoke any of these permissions at any time in your device's Settings app. Revoking a permission disables the associated feature but does not affect the rest of the app.</p>
+
+<h2>5. Third-Party Services</h2>
+<p>Scrounge integrates with the following third-party services. Each has its own privacy policy.</p>
+<ul>
+  <li><strong>Supabase</strong> — backend database and API hosting. Stores your account and pantry data. <a href="https://supabase.com/privacy" target="_blank">Privacy policy</a></li>
+  <li><strong>Google Gemini API</strong> — AI language model used for the Ask Scrounge assistant. Your queries are sent to Google's servers for processing. <a href="https://policies.google.com/privacy" target="_blank">Privacy policy</a></li>
+  <li><strong>Spoonacular</strong> — recipe search and nutritional data. Search queries are sent to Spoonacular's servers. <a href="https://spoonacular.com/food-api/docs#Authentication" target="_blank">Terms</a></li>
+  <li><strong>Pexels</strong> — recipe photography. Image search queries are sent to Pexels' servers. <a href="https://www.pexels.com/privacy-policy/" target="_blank">Privacy policy</a></li>
+  <li><strong>Google AdMob</strong> — advertising network. Scrounge displays ads to support free access to the app. AdMob may collect device identifiers and usage signals to serve contextually relevant ads. You can opt out of personalized ads in your device's Settings under Privacy → Apple Advertising (iOS). <a href="https://policies.google.com/privacy" target="_blank">Privacy policy</a></li>
+  <li><strong>Resend</strong> — transactional email service used to deliver in-app feedback to the developer. Feedback message content and your device identifier are transmitted through Resend. <a href="https://resend.com/legal/privacy-policy" target="_blank">Privacy policy</a></li>
+  <li><strong>Apple Sign In / Google Sign In</strong> — authentication providers. We receive only the minimum information shared during sign-in (email and optional display name).</li>
+</ul>
+
+<h2>6. Data Retention</h2>
+<p>Your account and pantry data is retained for as long as your account is active. If you delete the app without deleting your account, your data remains on our servers. To request deletion of all data associated with your account, email us at <a href="mailto:gavinbolin3411@gmail.com">gavinbolin3411@gmail.com</a> with the subject line "Delete my data." We will process your request within 30 days.</p>
+<p>Feedback messages are retained in email form for up to 12 months and used only for product improvement.</p>
+
+<h2>7. Children's Privacy</h2>
+<p>Scrounge is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal information, please contact us and we will delete it promptly.</p>
+
+<h2>8. Security</h2>
+<p>All data in transit between the app and our backend is encrypted using HTTPS/TLS. Data stored in Supabase is encrypted at rest. We use row-level security policies to ensure that users can only access their own data. No method of transmission or storage is 100% secure; we cannot guarantee absolute security, but we take reasonable measures to protect your information.</p>
+
+<h2>9. Your Rights</h2>
+<p>Depending on where you live, you may have the right to access, correct, or delete personal data we hold about you, or to restrict or object to certain types of processing. To exercise any of these rights, contact us at <a href="mailto:gavinbolin3411@gmail.com">gavinbolin3411@gmail.com</a>.</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>We may update this policy from time to time. When we do, we will update the "Last updated" date at the top of this page. Continued use of Scrounge after changes are posted constitutes acceptance of the updated policy. For significant changes, we will make a reasonable effort to notify you within the app.</p>
+
+<h2>11. Contact</h2>
+<p>Questions, requests, or concerns about this policy can be sent to:</p>
+<p>
+  <strong>Gavin Bolin</strong><br />
+  <a href="mailto:gavinbolin3411@gmail.com">gavinbolin3411@gmail.com</a>
+</p>
+
+<footer>
+  &copy; 2026 Scrounge. All rights reserved.
+</footer>
+
+</body>
+</html>
